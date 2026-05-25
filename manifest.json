@@ -1,0 +1,39 @@
+{
+  "name": "Absensi HR — Employee Attendance",
+  "short_name": "AbsensiHR",
+  "description": "Sistem absensi karyawan dengan scan ID, monitoring real-time, dan export laporan",
+  "start_url": "./absensi-karyawan.html",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#0f1117",
+  "orientation": "portrait-primary",
+  "lang": "id",
+  "categories": ["productivity", "business"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Absen Masuk / Keluar",
+      "url": "./absensi-karyawan.html#absen",
+      "description": "Langsung ke halaman absensi"
+    },
+    {
+      "name": "Monitoring",
+      "url": "./absensi-karyawan.html#monitor",
+      "description": "Lihat status karyawan hari ini"
+    }
+  ]
+}
