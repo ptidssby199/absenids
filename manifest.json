@@ -2,7 +2,7 @@
   "name": "Absensi HR — Employee Attendance",
   "short_name": "AbsensiHR",
   "description": "Sistem absensi karyawan dengan scan ID, monitoring real-time, dan export laporan",
-  "start_url": "./absensi-karyawan.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0f1117",
   "theme_color": "#0f1117",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Monitoring",
-      "url": "./absensi-karyawan.html#monitor",
+      "url": "./index.html#monitor",
       "description": "Lihat status karyawan hari ini"
     }
   ]
